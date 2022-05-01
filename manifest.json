@@ -1,0 +1,19 @@
+{
+"name": "To do list",
+  "description": "To do List",
+  "version": "0.3",
+  "browser_action": {
+		"default_title": "Epic Mode",
+		"default_popup": "popout.html"
+	},
+	"icons": {
+	  "128": "log.png"
+  },
+	
+  "manifest_version": 2,
+  "permissions":[
+    "storage",
+    "notifications",
+    "contextMenus", "activeTab"
+  ]
+}
